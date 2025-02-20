@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Que comience el juego!</title>
+    <link rel="shortcut icon" href="images/breaking bad/icon.png" type="x-icon">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body id="formulario">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            Nombre: <input type="text" placeholder="E.j. Roberto" required>
+            <br>Apellidos: <input type="text" placeholder="Introduce tus 1º y 2º apellidos. E.j. Martínez López" required>
+        <fieldset>
+            <legend>Dirreción Postal</legend>
+            Calle: <input type="text" placeholder="Introduce la calle. E.j. Calle del Pez.">
+            <br>Numero: <input type="number" placeholder="Introduce el número de la vivienda. E.j. Nº3 o 3">
+            <br>Piso: <input type="text" placeholder="E.j Bajo, Piso 1, Ático.">
+            <br>Ciudad: <input type="text" placeholder="E.j. Madrid, Alicante.">
+        </fieldset>
+        <br>DNI: <input type="text" placeholder="E.j. 12345678A" required>
+        <br>Correo Electronico: <input type="email" placeholder="E.j. bob@bob.es" required>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" value="Hombre">Hombre
+            <br><input type="radio" name="sexo" value="Mujer">Mujer
+        </fieldset>
+        <br>Fecha de nacimiento: <input type="date">
+        <br> Seleccion de Personaje:
+        <select name="personajes">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros personajes</option>
+        </select>
+        <br>Comentarios: <textarea name="comentarios">Puedes introducir algún comentario adicional aquí.</textarea>
+        <br>
+        <input type="reset" value="Borrar">
+        <input type="file" name="adjunto">
+        <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
