@@ -68,6 +68,13 @@ legend {
     font-weight: bold;
 }
 
+#Breaking_Bad {
+    --fuente-texto: 'FuentePersonalizada', serif;
+    font-family: var(--fuente-texto);
+    font-size: 40px;
+    font-weight: normal;
+}
+
 input {
     padding: 1px;
     margin-left: 50px;
@@ -100,6 +107,29 @@ textarea {
     width: 250px;
 }
 
+#enviar {
+    border-radius: 10px;
+    background-color: #3cb02a;
+    color: #ffff;
+    padding: 2px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 150px;
+    height: 30px;
+}
+
+#borrar {
+    border-radius: 10px;
+    background-color: #c52121;
+    color: #ffff;
+    width: 150px;
+    height: 30px;
+}
+
+#archivo {
+    width: 300px;
+}
+
 form {
     height: auto;
     width: 500px;
@@ -115,6 +145,7 @@ form {
     font-size: 15px;
     background-color: rgb(5, 8, 10, 0.5);
 }
+
 
 .logo {
     height: 200px;
@@ -136,39 +167,44 @@ form {
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 30px;
     margin-top: 2px;
     margin-bottom: 1px;
 }
 
 table {
-    table-layout: auto;
-    width: 90%;
+    table-layout: fixed;
+    width: 50%;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     background-color: black;
     color: black;
+    margin-bottom: 2rem;
 }
 
 td {
-    height: 70px;
-    width: 3.5rem;
+    height: 100%;
+    width: 200%;
     margin: 0;
-    padding: 0;
     border: 5px, solid black;
 }
 
+
 .tabla2 {
-    width: 70%;
+    height: auto;
+    width: auto;
+    margin-bottom: 2rem;
 }
+
 
 .square1 {
     background-color: #b8d927;
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 80px;
 }
 
 .square2 {
@@ -176,6 +212,7 @@ td {
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 60px;
 }
 
 .square3 {
@@ -183,6 +220,7 @@ td {
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 60px;
 }
 
 .square4 {
@@ -190,6 +228,7 @@ td {
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 60px;
 }
 
 .square5 {
@@ -197,6 +236,7 @@ td {
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 20px;
 }
 
 .square6 {
@@ -204,25 +244,33 @@ td {
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 60px;
 }
+
 
 .square7 {
     background-color: #818d4b;
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 60px;
 }
+
 
 .square8 {
     background-color: #ab8ece;
     color: black;
     margin-top: 15px;
     margin-bottom: -1px;
+    width: 40px;
+    padding: -3;
 }
 
 .square9 {
     background-color: #c4c239;
     color: black;
-    margin-top: 5px;
-    margin-bottom: -1px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 40px;
+    padding-bottom: -5px;
 }
